@@ -1,0 +1,17 @@
+$navbar-default-bg:#2F4C73;
+$navbar-default-brand-color:#ffffff;
+$navbar-default-link-color:#ffffff;
+$navbar-border-radius:0px;
+$panel-default-border:none;
+$jumbotron-padding: 140px;
+$light-orange:ff8c00;
+$navbar-default-color: $light-orange;
+
+@import "bootstrap-mincer";
+@import "bootstrap";
+@import "*";
+
+.panel-body {
+    text-align: center;
+}
+
