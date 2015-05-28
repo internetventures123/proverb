@@ -1,0 +1,20 @@
+
+<div class = "row">
+   <div class= "well col-md-8 col-md-offset-2">
+     <%= form_for(@proverbtext, html: {multipart: true}) do |f| %>
+        
+        <%= f.label :quote %>
+        <%= f.text_field :quote %>
+        
+        <%= f.label :show %>
+        <%= f.text_field :show %>
+
+        
+        <%= f.submit(@proverbtext.new_record? ? "Create Proverbtext" : "Edit Proverbtext", class: "btn btn-success") %>
+     <% end %>
+   </div>
+</div>
+
+<
+
+
