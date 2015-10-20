@@ -13,13 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20150527234539) do
 
-  create_table "proverb_texts", force: :cascade do |t|
-    t.string   "proverb_text"
-    t.integer  "show"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
-  end
-
   create_table "proverbtexts", force: :cascade do |t|
     t.string   "quote"
     t.integer  "show"
